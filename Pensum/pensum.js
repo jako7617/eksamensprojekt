@@ -1,8 +1,14 @@
-// ------ Jakob
+/*----------------------
+------- Pensum --------
+------------------------*/
 
-// ------ Jakob
+// ------ Tharshika
 
-// ------ Jakob
+// ------ Laura
+//mangler loops, events, arrays
+
+// ------ Mie
+//mangler loops, events, arrays, let/var/const
 
 // ------ Jakob
 
