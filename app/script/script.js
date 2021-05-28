@@ -1,6 +1,5 @@
-  // Side menu dropdowns - https://stackoverflow.com/questions/19206919/how-to-create-checkbox-inside-dropdown //
+  // Mie/Lauras kode - Side menu dropdowns - https://stackoverflow.com/questions/19206919/how-to-create-checkbox-inside-dropdown //
 console.log ("script.js is running");
-
 
   var checkList6 = document.getElementById('list6');
   checkList6.getElementsByClassName('anchor')[0].onclick = function(evt) {
@@ -41,9 +40,11 @@ console.log ("script.js is running");
     else
       checkList10.classList.add('visible');
   }
-// Sidemenu dropdowns - slut //
 
-//Side menu navigation - https://www.w3schools.com/howto/howto_js_sidenav.asp //
+// Sidemenu dropdowns - slut //
+// Mie/Laura kode slut //
+
+/// Mie/Laura kode - Side menu navigation - https://www.w3schools.com/howto/howto_js_sidenav.asp //
 function openNav() {
     document.getElementById("mySidenav").style.width = "500px";
 
@@ -54,19 +55,20 @@ function openNav() {
   }
  // Side menu navigation slut -  //
 
-  // https://codepen.io/aramloosman/pen/eLVxrL //
+// Progressbar - https://codepen.io/aramloosman/pen/eLVxrL //
   function setPrc( progress ) {
     if( progress ) {
-      // this is how to set the progress programmatically,
       // the background-position needs the inverted value from 0% to 100% (0% means full bar, 100% means empty)
       document.getElementById('progress').setAttribute( 'style', 'background-position: ' + (100-progress) + '% 0')
     } else {
       document.getElementById('progress').setAttribute( 'style', '')
     }
   }
-// Sidemenu nav - slut //
+// Mie/Laura kode slut - Sidemenu nav - slut //
 
-// Picture and text changer //
+
+
+// Jakob - Picture and text changer //
   function resetImage() {
     document.getElementById("imgClickAndChange").src = "images/page1-crp.png"
     document.getElementById("guideText").innerHTML = "<b>Start:</b><br /> By double clicking on the name of the newly created mission on the bar on the left, you will be presented with the three views that you will interact with in order to perform the test."
@@ -138,3 +140,5 @@ function renderResults(results) {
   searchWrapper.classList.add('show');
   resultsWrapper.innerHTML = `<ul>${content}</ul>`;
 }
+
+// Jakob kode - slut //
