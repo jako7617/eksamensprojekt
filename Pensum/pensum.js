@@ -4,18 +4,18 @@
 
 // ------ Tharshika
 
-// ------ Laura
+// ------ Mie/Laura
 //mangler loops, events, arrays
 
-// ------ Mie
+// ------ Mie/Laura
 //mangler loops, events, arrays, let/var/const
 
 // ------ Jakob
 
 // Objekt
 const pensumsObjektJakob = {
-    Satellitter: "QuadSAT",
-    Drone: "Dyrt",
+    Satellitter: "Dyrt",
+    Drone: "QuadSAT",
     Projekt: "Okay",
   };
   console.log(pensumsObjektJakob);
