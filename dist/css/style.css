@@ -695,7 +695,7 @@ li img {
 .info-grid-container__griditem2 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
-  grid-row: 1/3;
+  grid-row: 1/2;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -707,7 +707,7 @@ li img {
 .info-grid-container__griditem3 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
-  grid-row: 1/3;
+  grid-row: 2/3;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
