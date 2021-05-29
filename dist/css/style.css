@@ -423,6 +423,19 @@ main img {
   border-bottom: 4px solid #e3e3e3;
 }
 
+.sideFont {
+  font-weight: 400;
+  font-size: 24px;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.mainFont {
+  font-weight: 400;
+  font-size: 34px;
+  font-size: 3.4rem;
+}
+
 .anchor span:hover {
   color: #bb86fc;
   border-bottom: 4px solid #bb86fc;
