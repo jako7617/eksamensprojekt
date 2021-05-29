@@ -8,36 +8,57 @@
 
 // Objekt
 const pensumObjektLaura = {
-    by: "Odense C",
-    arbejde: "På skolen",
-    macbook: "JA",
-  };
-  console.log(pensumObjektLaura);
+  by: "Odense C",
+  arbejde: "På skolen",
+  macbook: "JA",
+};
+console.log(pensumObjektLaura);
 
-  pensumObjektLaura.done = "jada";
+pensumObjektLaura.done = "jada";
 
-  console.log(pensumObjektLaura);
+console.log(pensumObjektLaura);
 
 // Array
-  const pensumArrayLaura = ["Satellitter", "Hej Thomas", "Hygge"];
-  pensumArrayLaura.splice(1, 1);
-  console.log(pensumArrayLaura);
+const pensumArrayLaura = ["Satellitter", "Hej Thomas", "Hygge"];
+pensumArrayLaura.splice(1, 1);
+console.log(pensumArrayLaura);
 
 
-  // For loop
-  let i = 0;
+// For loop
+let i = 0;
 
-  for (i = 0; i < 1; i++) {
-    console.log("Det virker!");
-  }
+for (i = 0; i < 1; i++) {
+  console.log("Det virker!");
+}
 
-// ------ Mie/Laura
-//mangler loops, events, arrays, let/var/const
-
-// ------ Jakob
+// ------ Mie
 
 // Objekt
-const pensumsObjektJakob = {
+const pensumObjektMie = {
+  fyn: "jep",
+  træner: "hver dag",
+  coronapas: "hader",
+};
+console.log(pensumObjektMie);
+
+pensumObjektMie.virker = "yesyes";
+
+console.log(pensumObjektMie);
+
+// Array
+const pensumArrayMie = ["QuadSAT", "Droner", "Antenner"];
+pensumArrayMie.unshift("Hest!");
+console.log(pensumArrayMie);
+
+// For loop
+for (let i = 0; i < pensumArrayMie.length; i++) {
+  console.log("Mies forloop!");
+
+
+  // ------ Jakob
+
+  // Objekt
+  const pensumsObjektJakob = {
     Satellitter: "Dyrt",
     Drone: "QuadSAT",
     Projekt: "Okay",
