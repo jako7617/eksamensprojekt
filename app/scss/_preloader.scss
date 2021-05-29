@@ -16,8 +16,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  /*width: 100vw;
   height: 100vh;
+  */
   background-color: #292929;
   z-index: 200;
   display: flex;
@@ -40,6 +41,6 @@
 }
 
 .preloaderpic {
-  width: 100%;
+  width: 1200px;
   height: auto;
 }
