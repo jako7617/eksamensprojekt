@@ -1008,7 +1008,7 @@ li img {
   display: grid;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
-  -ms-grid-rows: (1fr);
+  -ms-grid-rows: 1fr;
   grid-template-rows: repeat(1, 1fr);
   margin: 0 3.9% 0 6.2%;
 }
