@@ -1088,13 +1088,13 @@ li img {
   opacity: 0;
   -webkit-animation: splashFade 1.7s ease-in forwards;
           animation: splashFade 1.7s ease-in forwards;
-  height: 50%;
-  width: 50%;
+  height: auto;
+  width: 100%;
   background-repeat: no-repeat;
 }
 
 .preloaderpic {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 /*# sourceMappingURL=style.css.map */
