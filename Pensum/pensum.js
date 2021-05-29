@@ -4,6 +4,12 @@
 
 // ------ Tharshika
 
+// Array
+const pensumArrayTharshika = ["Droner", "er", "seje"];
+pensumArrayTharshika.splice(1, 1);
+
+
+
 // ------ Laura
 
 // Objekt
