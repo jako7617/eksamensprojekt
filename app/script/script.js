@@ -42,9 +42,9 @@ console.log ("script.js is running");
   }
 
 // Sidemenu dropdowns - slut //
-// Mie/Laura kode slut //
+// Laura kode slut //
 
-/// Mie/Laura kode - Side menu navigation - https://www.w3schools.com/howto/howto_js_sidenav.asp //
+/// Mie kode - Side menu navigation - https://www.w3schools.com/howto/howto_js_sidenav.asp //
 function openNav() {
     document.getElementById("mySidenav").style.width = "500px";
 
@@ -64,7 +64,7 @@ function openNav() {
       document.getElementById('progress').setAttribute( 'style', '')
     }
   }
-// Mie/Laura kode slut - Sidemenu nav - slut //
+// Mie kode slut - Sidemenu nav - slut //
 
 
 

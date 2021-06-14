@@ -141,6 +141,18 @@
 .anchor span {
   border-bottom: 4px solid $clr-text;
 }
+.sideFont {
+  font-weight: 400;
+  font-size: $font-med-fallback;
+  font-size: $font-med;
+  margin-bottom: 2rem;
+}
+.mainFont {
+  font-weight: 400;
+  font-size: $font-l-fallback;
+  font-size: $font-l;
+}
+
 .anchor span:hover {
   color: $clr-light-purple;
   border-bottom: 4px solid $clr-light-purple;
