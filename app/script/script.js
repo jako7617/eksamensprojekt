@@ -1,4 +1,4 @@
-  // Mie/Lauras kode - Side menu dropdowns - https://stackoverflow.com/questions/19206919/how-to-create-checkbox-inside-dropdown //
+  // Lauras kode - Side menu dropdowns - https://stackoverflow.com/questions/19206919/how-to-create-checkbox-inside-dropdown //
 console.log ("script.js is running");
 
   var checkList6 = document.getElementById('list6');
